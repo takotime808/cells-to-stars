@@ -19,12 +19,11 @@ vercel
 ```
 
 ----
-----
 ## Dev Work
 
-### Container
+### Local Container
 
-To build and run a docker container with this app port forwarded:
+To build and run a docker container with this app port forwarded run this from the [root of the repo](../) (one directory back `cd ..`):
 
 ```bash
 docker build -t cosmic-explorer -f deploy/Dockerfile .
@@ -43,4 +42,4 @@ npm install      # only needed once / after pulling
 npm run dev
 ```
 
-Then open [http://localhost:5174](http://localhost:5174) in your browser.
+Then open [http://localhost:5174](http://localhost:5174) or [5173](http://localhost:5173) in your browser.
